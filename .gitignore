@@ -14,3 +14,7 @@ _site/
 .jekyll-metadata
 vendor/
 .bundle/
+
+# OS cruft #
+############
+.DS_Store
