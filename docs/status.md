@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Restoration Status
-nav_order: 5
+nav_order: 6
 ---
 
 # Restoration Status
@@ -59,7 +59,8 @@ includes:
 
 ## Suggested Recovery Order
 
-1. Add a reproducible PC cross-build environment.
+1. Add the Dockerized PC cross-build environment described in the
+   [Modernization Plan](modernization.html).
 2. Fix the libc contract violations and C++ runtime finalization.
 3. Restore one modern QEMU boot path with a serial smoke test.
 4. Fix mount-path allocation, partition bounds, and array cleanup.

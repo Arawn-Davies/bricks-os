@@ -54,6 +54,9 @@ A restoration effort should first provide a documented i386 cross-toolchain or
 a containerized Linux build environment. That makes compiler behavior explicit
 and prevents the host architecture from leaking into assembly compilation.
 
+The proposed host-independent Docker workflow is described in the
+[Modernization Plan](modernization.html).
+
 ## PC Boot-Media Drift
 
 The PC convenience targets in `Makefile.pc` are historical:

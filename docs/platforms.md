@@ -35,6 +35,13 @@ The makefile configuration selects source modules. The matching C/C++ header
 selects compile-time behavior. When restoring a target, keep these two files in
 sync.
 
+## Docker Restoration
+
+The proposed cross-platform workflow uses separate pinned Linux toolchain
+images for target families instead of installing SDKs directly on each host.
+See the [Modernization Plan](modernization.html) for the image matrix and
+restoration milestones.
+
 ## Verification Policy
 
 For each restored target, record:

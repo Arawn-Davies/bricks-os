@@ -32,6 +32,8 @@ them from work that still needs verification.
 - [Building Bricks-OS](building.html): historical instructions and current
   build limitations.
 - [Platforms](platforms.html): target architectures and expected toolchains.
+- [Modernization Plan](modernization.html): Dockerized, host-independent build
+  strategy.
 - [Restoration Status](status.html): confirmed bitrot and suggested recovery
   order.
 
