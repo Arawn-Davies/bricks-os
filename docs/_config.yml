@@ -11,12 +11,8 @@ nav_sort: case_insensitive
 color_scheme: dark
 
 aux_links:
-  "Bricks-OS on GitHub":
+  "View on GitHub":
     - "https://github.com/Arawn-Davies/bricks-os"
-
-footer_content: >-
-  Bricks-OS documentation.
-  <a href="https://arawn-davies.co.uk">Home: arawn-davies.co.uk</a>
 
 exclude:
   - Gemfile
