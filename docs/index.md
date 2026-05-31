@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bricks-OS
+nav_order: 1
 ---
 
 # Bricks-OS
@@ -21,17 +22,17 @@ dates from 2013, and the current tree has known build-tooling drift and
 unfinished subsystems. Treat it as an operating-system restoration project
 rather than as a currently supported OS distribution.
 
-The [restoration status](status.md) page records confirmed issues and separates
+The [restoration status](status.html) page records confirmed issues and separates
 them from work that still needs verification.
 
 ## Documentation
 
-- [Architecture](architecture.md): kernel structure, libraries, and application
+- [Architecture](architecture.html): kernel structure, libraries, and application
   model.
-- [Building Bricks-OS](building.md): historical instructions and current
+- [Building Bricks-OS](building.html): historical instructions and current
   build limitations.
-- [Platforms](platforms.md): target architectures and expected toolchains.
-- [Restoration Status](status.md): confirmed bitrot and suggested recovery
+- [Platforms](platforms.html): target architectures and expected toolchains.
+- [Restoration Status](status.html): confirmed bitrot and suggested recovery
   order.
 
 ## Repository Layout
@@ -52,5 +53,5 @@ them from work that still needs verification.
 ## License
 
 Bricks-OS is distributed under the GNU General Public License. See
-[`COPYING`](../COPYING) and [`COPYRIGHT`](../COPYRIGHT).
-
+[`COPYING`](https://github.com/Arawn-Davies/bricks-os/blob/master/COPYING) and
+[`COPYRIGHT`](https://github.com/Arawn-Davies/bricks-os/blob/master/COPYRIGHT).

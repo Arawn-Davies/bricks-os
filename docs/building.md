@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Building Bricks-OS
+nav_order: 3
 ---
 
 # Building Bricks-OS
-
-[Home](index.md) | [Architecture](architecture.md) | [Platforms](platforms.md) |
-[Restoration Status](status.md)
 
 ## Historical Build Interface
 
@@ -71,7 +69,7 @@ device syntax. These launch targets should be treated as restoration work.
 ## Console Toolchains
 
 Console targets use older devkitPro, ps2dev, or platform-specific cross
-compiler naming conventions. See [Platforms](platforms.md) for the expected
+compiler naming conventions. See [Platforms](platforms.html) for the expected
 historical commands.
 
 Current compatibility with modern SDK releases has not yet been verified.
@@ -83,4 +81,3 @@ Current compatibility with modern SDK releases has not yet been verified.
 3. Replace the stale QEMU command with a current launch target.
 4. Add a minimal serial-output smoke test.
 5. Restore console targets one toolchain at a time.
-

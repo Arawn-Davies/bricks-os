@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Architecture
+nav_order: 2
 ---
 
 # Architecture
-
-[Home](index.md) | [Building](building.md) | [Platforms](platforms.md) |
-[Restoration Status](status.md)
 
 ## Design Goal
 
@@ -96,4 +94,3 @@ not general-purpose standard-library implementations. For example, the local
 
 `gl/` contains a software OpenGL-like renderer. Architecture ports may also
 provide hardware-specific rendering contexts.
-

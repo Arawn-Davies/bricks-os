@@ -1,4 +1,22 @@
 title: Bricks-OS
 description: Documentation for the Bricks-OS distributed microkernel experiment
-theme: jekyll-theme-minimal
+theme: just-the-docs
 
+url: "http://arawn-davies.co.uk"
+baseurl: "/bricks-os"
+
+search_enabled: true
+heading_anchors: true
+nav_sort: case_insensitive
+color_scheme: dark
+
+aux_links:
+  "Bricks-OS on GitHub":
+    - "https://github.com/Arawn-Davies/bricks-os"
+
+footer_content: "Bricks-OS documentation."
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

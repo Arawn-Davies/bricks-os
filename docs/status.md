@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Restoration Status
+nav_order: 5
 ---
 
 # Restoration Status
-
-[Home](index.md) | [Architecture](architecture.md) | [Building](building.md) |
-[Platforms](platforms.md)
 
 This page records confirmed issues in the current source tree. It is an audit,
 not a list of completed fixes.
@@ -68,4 +66,3 @@ includes:
 5. Implement thread joining and actual dead-thread reclamation.
 6. Add targeted tests before expanding filesystem and GL behavior.
 7. Restore console targets individually after the PC baseline is stable.
-

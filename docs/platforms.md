@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Platforms
+nav_order: 4
 ---
 
 # Platforms
-
-[Home](index.md) | [Architecture](architecture.md) | [Building](building.md) |
-[Restoration Status](status.md)
 
 Bricks-OS contains ports for several consoles and for i386 PCs. The table below
 describes the source tree and historical build interface. It does not claim
@@ -46,4 +44,3 @@ For each restored target, record:
 3. Produced binary path.
 4. Emulator or hardware launch procedure.
 5. Observable smoke-test output.
-

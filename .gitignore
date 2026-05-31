@@ -5,3 +5,12 @@
 *.o
 *.o.S
 *.a
+
+# Documentation build output #
+##############################
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
